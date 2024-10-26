@@ -1,7 +1,7 @@
-package exepction;
+package exception;
 
-public class ConversionException extends RuntimeException {
-  public ConversionException(String message) {
-    super(message);
-  }
+public class ConversionException extends Exception {
+    public ConversionException(String mensaje) {
+        super(mensaje);
+    }
 }
